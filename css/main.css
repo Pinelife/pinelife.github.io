@@ -41,3 +41,11 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.waterBorder {
+    -webkit-border-image:url(http://www.nature.com/polopoly_fs/7.40524.1479125535!/image/oceans.jpg_gen/derivatives/landscape_630/oceans.jpg) 30 30 round; /* Safari 3.1-5 */
+    -o-border-image:url(http://www.nature.com/polopoly_fs/7.40524.1479125535!/image/oceans.jpg_gen/derivatives/landscape_630/oceans.jpg) 30 30 round; /* Opera 11-12.1 */
+    border-image:url(http://www.nature.com/polopoly_fs/7.40524.1479125535!/image/oceans.jpg_gen/derivatives/landscape_630/oceans.jpg) 30 30 round;
+    border-width: 12px;
+    padding: 50px;
+  }
