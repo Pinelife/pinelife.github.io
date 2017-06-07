@@ -54,3 +54,7 @@ ol li {
     line-height: 1.3em;
     color: #000000;
 }
+
+ .indented { 
+     padding-left: 50pt; padding-right: 50pt; 
+}
