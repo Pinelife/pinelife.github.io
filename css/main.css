@@ -16,6 +16,12 @@ a {
     text-decoration: none;
     color: #595959;
 }
+
+p ul
+{
+        list-style: none;
+}
+
 a:hover {
     text-decoration: underline;
     color: #cc99ff;
