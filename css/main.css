@@ -19,7 +19,8 @@ a {
 
 p ul
 {
-        list-style-type: none;
+    list-style-type: none;
+    font-size: 1.2em;
 }
 
 a:hover {
