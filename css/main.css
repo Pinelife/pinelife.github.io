@@ -23,6 +23,10 @@ p ul
     font-size: 1.2em;
 }
 
+li{
+    font-size: 1.2em;
+}
+
 a:hover {
     text-decoration: underline;
     color: #cc99ff;
