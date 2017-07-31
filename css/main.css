@@ -91,15 +91,15 @@ ol li {
 }
     .left {
        /* position:absolute;
-     float: left;   
-     left:0; 
+        float: left;   
+        left:0; 
         top:92px; 
         width: 178px;
         outline: #f9e3f6 solid thick;
         padding-right: 10px;
         padding-left: 10px;    */    
-     width: 250px;
-     background-color: #111;
+        width: 250px;
+        float: left;
 }
 
    .left ul{
@@ -122,7 +122,7 @@ ol li {
         padding-right: 100px !important;
         padding-top:15px !important;*/
         width: 750px;
-       background-color: #777;
+        float: left;
     }
 
     .top {
