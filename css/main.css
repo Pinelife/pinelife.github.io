@@ -89,3 +89,12 @@ ol li {
      padding-left: 50pt; 
      padding-right: 50pt; 
 }
+    .left {
+        position:absolute;
+        left:0; top:92px; bottom: 0;
+        width: 178px;
+    }
+    .main {
+        position: absolute;
+        left:178px; top:92px; right:0; bottom:0;
+    }
