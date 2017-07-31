@@ -96,7 +96,8 @@ ol li {
         bottom: 0;
         width: 178px;
         background: #f9e3f6;
-        padding-right: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
         /*padding: 15px;
         height:100vh; */           
 }
