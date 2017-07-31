@@ -121,3 +121,28 @@ ol li {
         right:0;
         height: 92px;
     }
+
+.top nav ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.top footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.top nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.top footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
