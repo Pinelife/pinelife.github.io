@@ -92,21 +92,23 @@ ol li {
     .left {
         position:absolute;
         left:0; 
-     top:92px; 
-     bottom: 0;
+        top:92px; 
+        bottom: 0;
         width: 178px;
-      background: #ffd8e8; 
+        background: #ffd8e8; 
+        height: 100%;
     }
     .main {
         position: absolute;
         left:178px; 
-     top:150px; 
-     right:0; 
-     bottom:0;
+        top:150px; 
+        right:0; 
+        bottom:0;
+        padding-left: 5px;
     }
     .top {
         position:absolute;
         left:0; 
-     right:0;
+        right:0;
         height: 92px;
     }
