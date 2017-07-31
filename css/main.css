@@ -95,7 +95,7 @@ ol li {
         top:92px; 
         bottom: 0;
         width: 178px;
-        background: #f9e3f6;
+        outline: grey solid thick;
         padding-right: 10px;
         padding-left: 10px;
         /*padding: 15px;
