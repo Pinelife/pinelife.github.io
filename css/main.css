@@ -93,7 +93,7 @@ ol li {
         position:absolute;
         left:0; 
         top:92px; 
-        bottom: 0;
+        /*bottom: 0;*/
         width: 178px;
         outline: #f9e3f6 solid thick;
         padding-right: 10px;
