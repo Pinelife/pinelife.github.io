@@ -95,11 +95,9 @@ ol li {
         top:92px; 
         bottom: 0;
         width: 178px;
-        outline: grey solid thick;
+        outline: #f9e3f6 solid thick;
         padding-right: 10px;
-        padding-left: 10px;
-        /*padding: 15px;
-        height:100vh; */           
+        padding-left: 10px;               
 }
 
    .left ul{
