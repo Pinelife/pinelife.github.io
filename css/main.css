@@ -96,7 +96,9 @@ ol li {
         bottom: 0;
         width: 178px;
         padding: 15px;
-        }
+        height:100vh;
+        background: red;        
+}
 
     .main {
         position: absolute;
