@@ -128,11 +128,11 @@ ol li {
         float: right;
     }
 
-@media (max-width: 780px){
+@media (max-width: 2080px){
     .main, .left { 
      float:none !important; 
      width:90% !important; 
-     
+     margin: 0px !important;
       }
 }
 
