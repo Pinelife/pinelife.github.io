@@ -125,6 +125,14 @@ ol li {
                 float: right;
     }
 
+@media all and (max-width:500px){
+    .main, .left { 
+     float:none; 
+     width:100%; 
+ }
+}
+
+
     .top {
         position:absolute;
         left:0; 
