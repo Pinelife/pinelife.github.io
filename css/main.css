@@ -17,6 +17,7 @@ color: #0033cc;
 body {
     margin: 60px auto !important;
     width: 70%;
+    padding-right:20px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
