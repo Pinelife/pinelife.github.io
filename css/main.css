@@ -129,6 +129,7 @@ ol li {
     .main, .left { 
      float:none; 
      width:100%; 
+     background:red;
  }
 }
 
