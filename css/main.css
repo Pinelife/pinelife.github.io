@@ -103,7 +103,7 @@ ol li {
         outline: #f9e3f6 solid thick;
         padding-right: 10px;
         padding-left: 10px;        
-        width: 25%;
+        width: 32%;
         float: left;
         margin: 40px;
         padding-bottom: 10px;
@@ -131,7 +131,7 @@ ol li {
         float: right;
     }
 
-@media (max-width: 2080px){
+@media (max-width: 700px){
     .main, .left { 
      float:none !important; 
      width:75% !important; 
