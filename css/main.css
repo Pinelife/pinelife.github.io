@@ -131,7 +131,7 @@ ol li {
         float: right;
     }
 
-@media (max-width: 700px){
+@media (max-width: 500px){
     .main, .left { 
      float:none !important; 
      width:75% !important; 
