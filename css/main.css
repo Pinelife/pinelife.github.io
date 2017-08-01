@@ -128,9 +128,8 @@ ol li {
 @media screen and (max-width: 480px){
     .main, .left { 
      float:none; 
-     width:100%; 
-     background:red;
- }
+     width:90%; 
+      }
 }
 
 
