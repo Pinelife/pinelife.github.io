@@ -127,7 +127,7 @@ ol li {
         float: right;
     }
 
-@media screen and (max-width: 780px){
+@media (max-width: 780px){
     .main, .left { 
      float:none !important; 
      width:90% !important; 
