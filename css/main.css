@@ -134,8 +134,8 @@ ol li {
 @media (max-width: 2080px){
     .main, .left { 
      float:none !important; 
-     width:90% !important; 
-     margin: 0px !important;
+     width:75% !important; 
+     margin:30px !important;
       }
 }
 
