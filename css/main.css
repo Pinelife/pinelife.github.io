@@ -29,6 +29,9 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
+nav{
+    padding-bottom: 10px;
+}
 
 a {
     text-decoration: underline;
