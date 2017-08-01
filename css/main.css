@@ -103,6 +103,7 @@ ol li {
         width: 25%;
         float: left;
         margin: 40px;
+        padding-bottom: 10px;
 }
 
    .left ul{
@@ -131,6 +132,7 @@ ol li {
     .main, .left { 
      float:none !important; 
      width:90% !important; 
+     
       }
 }
 
