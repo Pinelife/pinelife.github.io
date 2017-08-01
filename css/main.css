@@ -124,7 +124,7 @@ ol li {
         padding-right: 100px !important;
         padding-top:15px !important;*/
         width:55%; 
-        float:right;
+        float:left;
     }
 
 @media all and (max-width:500px){
