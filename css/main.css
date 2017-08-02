@@ -121,15 +121,15 @@ ol li {
 
     .main {
      /* position:absolute;
-        float: right;
-        left:178px; 
-        top:90px; 
-        right:0; 
-        bottom:0;
-        padding-left: 100px !important;
-        padding-right: 100px !important;
-        padding-top:15px !important;*/
-        float: right;
+     float: right;
+     left:178px; 
+     top:90px; 
+     right:0; 
+     bottom:0;
+     padding-left: 100px !important;
+     padding-right: 100px !important;
+     padding-top:15px !important;*/
+     float: right;
     }
 
 @media (max-width: 1000px){
