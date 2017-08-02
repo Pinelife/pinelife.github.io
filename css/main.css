@@ -92,74 +92,74 @@ ol li {
 }
 
  .indented { 
-     padding-left: 50pt; 
-     padding-right: 50pt; 
+    padding-left: 50pt; 
+    padding-right: 50pt; 
 }
     .left {
-     /* position:absolute;
-     float: left;   
-     left:0; 
-     top:92px; 
-     width: 178px;*/
-     outline: #f9e3f6 solid thick;
-     padding-right: 10px;
-     padding-left: 10px;        
-     width: 32%;
-     float: left;
-     margin: 40px;
-     padding-bottom: 10px;
+    /* position:absolute;
+    float: left;   
+    left:0; 
+    top:92px; 
+    width: 178px;*/
+    outline: #f9e3f6 solid thick;
+    padding-right: 10px;
+    padding-left: 10px;        
+    width: 32%;
+    float: left;
+    margin: 40px;
+    padding-bottom: 10px;
 }
 
    .left ul{
-     font-size:0.9em !important;
+    font-size:0.9em !important;
 }
 
 .wrapper{
-     width: 1005px;
-     margin: 0 auto;
+    width: 1005px;
+    margin: 0 auto;
 }
 
-    .main {
-     /* position:absolute;
-     float: right;
-     left:178px; 
-     top:90px; 
-     right:0; 
-     bottom:0;
-     padding-left: 100px !important;
-     padding-right: 100px !important;
-     padding-top:15px !important;*/
-     float: right;
+ .main {
+    /* position:absolute;
+    float: right;
+    left:178px; 
+    top:90px; 
+    right:0; 
+    bottom:0;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    padding-top:15px !important;*/
+    float: right;
     }
 
 @media (max-width: 1000px){
-    .main, .left { 
-     float:none !important; 
-     width:75% !important; 
-     margin:30px !important;
-      }
+  .main, .left { 
+    float:none !important; 
+    width:75% !important; 
+    margin:30px !important;
+    }
 }
 
 
-    .top {
-     position:absolute;
-     left:0; 
-     right:0;
-     height: 92px;
-    }
+ .top {
+    position:absolute;
+    left:0; 
+    right:0;
+    height: 92px;
+  }
 
 .top nav ul {
-     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-     padding: 0px;
-     list-style: none;
-     font-weight: bold;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
 }
 
 .top footer ul {
-     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-     padding: 0px;
-     list-style: none;
-     font-weight: bold;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
 }
 
 .top nav ul li {
