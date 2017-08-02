@@ -1,17 +1,17 @@
 .lauria {
-color: #ba41d8;
+    color: #ba41d8;
  }
 
 .ben {
-color: #00b300;
+    color: #00b300;
 }
 
 .Franky {
-color: #33cccc;
+    color: #33cccc;
 }
 
 .chen {
-color: #0033cc;
+    color: #0033cc;
  }
 
 body {
@@ -61,9 +61,9 @@ h1 {
 h3 {
     font-size: 1.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-  background: -webkit-linear-gradient(#42adf4, #e886ca);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#42adf4, #e886ca);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 p {
@@ -96,22 +96,22 @@ ol li {
      padding-right: 50pt; 
 }
     .left {
-       /* position:absolute;
-        float: left;   
-        left:0; 
-        top:92px; 
-        width: 178px;*/
-        outline: #f9e3f6 solid thick;
-        padding-right: 10px;
-        padding-left: 10px;        
-        width: 32%;
-        float: left;
-        margin: 40px;
-        padding-bottom: 10px;
+     /* position:absolute;
+     float: left;   
+     left:0; 
+     top:92px; 
+     width: 178px;*/
+     outline: #f9e3f6 solid thick;
+     padding-right: 10px;
+     padding-left: 10px;        
+     width: 32%;
+     float: left;
+     margin: 40px;
+     padding-bottom: 10px;
 }
 
    .left ul{
-        font-size:0.9em !important;
+     font-size:0.9em !important;
 }
 
 .wrapper{
@@ -142,24 +142,24 @@ ol li {
 
 
     .top {
-        position:absolute;
-        left:0; 
-        right:0;
-        height: 92px;
+     position:absolute;
+     left:0; 
+     right:0;
+     height: 92px;
     }
 
 .top nav ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+     padding: 0px;
+     list-style: none;
+     font-weight: bold;
 }
 
 .top footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+     padding: 0px;
+     list-style: none;
+     font-weight: bold;
 }
 
 .top nav ul li {
