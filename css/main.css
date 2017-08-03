@@ -140,6 +140,10 @@ ol li {
     }
 }
 
+@media (max-width: 1000px){
+nav ul li, footer ul li {
+    display: block;
+    }}
 
  .top {
     position:absolute;
