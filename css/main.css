@@ -156,6 +156,12 @@ img {
     }
 }
 
+@media (max-width: 1000px){
+    body{
+    margin: 30px auto !important;
+    width: 85%;
+    }
+}
  .top {
     position:absolute;
     left:0; 
