@@ -152,7 +152,7 @@ nav ul li, footer ul li {
 
 @media (max-width: 1000px){
 img {
-    width: 60%;
+    width: 60% !important;
     }
 }
 
