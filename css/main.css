@@ -200,3 +200,11 @@ img {
     display: inline;
     margin-right: 20px;
 }
+
+.sparkle{
+-webkit-border-image:url(https://68.media.tumblr.com/cba82bd8af1a0794b847d0b548b6fd7a/tumblr_ou5c6vev6r1sixvsmo1_540.gif) 30 30 round; /* Safari 3.1-5 */
+    -o-border-image:url(https://68.media.tumblr.com/cba82bd8af1a0794b847d0b548b6fd7a/tumblr_ou5c6vev6r1sixvsmo1_540.gif) 30 30 round; /* Opera 11-12.1 */
+    border-image:url(https://68.media.tumblr.com/cba82bd8af1a0794b847d0b548b6fd7a/tumblr_ou5c6vev6r1sixvsmo1_540.gif) 30 30 round;
+    border-width: 12px;
+    padding: 50px;
+}
