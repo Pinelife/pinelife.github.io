@@ -108,9 +108,9 @@ ol li {
     float: left;
     margin: 40px;
     padding-bottom: 10px;
-    -webkit-border-image:url(https://s-media-cache-ak0.pinimg.com/originals/6f/6a/ad/6f6aad5e422e2400e617c12436776cb7.jpg) 30 30 round; /* Safari 3.1-5 */
-    -o-border-image:url(https://s-media-cache-ak0.pinimg.com/originals/6f/6a/ad/6f6aad5e422e2400e617c12436776cb7.jpg) 30 30 round; /* Opera 11-12.1 */
-    border-image:url(https://s-media-cache-ak0.pinimg.com/originals/6f/6a/ad/6f6aad5e422e2400e617c12436776cb7.jpg) 30 30 round;
+    -webkit-border-image:url(https://s-media-cache-ak0.pinimg.com/originals/6f/6a/ad/6f6aad5e422e2400e617c12436776cb7.jpg) 30 30 round !important; /* Safari 3.1-5 */
+    -o-border-image:url(https://s-media-cache-ak0.pinimg.com/originals/6f/6a/ad/6f6aad5e422e2400e617c12436776cb7.jpg) 30 30 round !important; /* Opera 11-12.1 */
+    border-image:url(https://s-media-cache-ak0.pinimg.com/originals/6f/6a/ad/6f6aad5e422e2400e617c12436776cb7.jpg) 30 30 round !important;
     border-width: 12px;
     
 }
