@@ -145,6 +145,17 @@ nav ul li, footer ul li {
     display: block;
     }}
 
+@media (max-width: 1000px){
+nav ul li, footer ul li {
+    display: block;
+    }}
+
+@media (max-width: 1000px){
+img {
+    width: 60%;
+    }
+}
+
  .top {
     position:absolute;
     left:0; 
