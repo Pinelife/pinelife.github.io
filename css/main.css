@@ -139,8 +139,7 @@ ol li {
     width:75% !important; 
     margin:30px !important;
     padding-top: 10px;
-    }
-}
+    }}
 
 @media (max-width: 1000px){
 nav ul li, footer ul li {
@@ -155,8 +154,7 @@ nav ul li, footer ul li {
 @media (max-width: 1000px){
 img {
     width: 80% !important;
-    }
-}
+    }}
 
 @media (max-width: 1000px){
     body{
