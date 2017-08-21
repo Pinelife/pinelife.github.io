@@ -14,6 +14,13 @@
     color: #0033cc;
  }
 
+.Satan {
+    color: #000;
+    font-weight: bold;
+     text-shadow: 1px 1px #FF0000;
+    font-family: 'Serif';
+ }
+
 body {
     margin: 60px auto !important;
     width: 70%;
