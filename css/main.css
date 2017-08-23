@@ -16,8 +16,11 @@
 
 .Satan {
     color: #000;
-   /* font-weight: bold;*/
-   text-shadow: 1.5px 1.5px #ffe0ed;
+   /* font-weight: bold;
+   text-shadow: 1.5px 1.5px #ffe0ed;*/
+   background: -webkit-linear-gradient(#7f0000, #000);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
    }
 
 body {
