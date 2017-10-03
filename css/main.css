@@ -10,6 +10,15 @@
     color: #33cccc;
 }
 
+#players {
+   font-size: 1.5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    background: -webkit-linear-gradient(#ed1717, #f276c7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
 .chen {
     color: #0033cc;
  }
