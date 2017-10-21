@@ -1,0 +1,156 @@
+# Room configuration
+
+# Starting room
+index:
+  prompt: "{left} or {right}"
+  left: 
+    room: Room1
+    text: Click here to enter the castle
+  right:
+    room: Room1
+    text: click here to try your luck with the sharks and crocodiles
+  history: You got dolled up to go to a house party
+
+# Pre-party Satan bargain
+Room1:
+  prompt: "Do you want to {left} or do you want to {right}?"
+  left: 
+    room: Room2
+    text: check out your relationship advice blog <b>FuckLyf</b>
+  right:
+    room: Room3
+    text: pick a petty fight with your housemate Ben
+  history: You struck a Faustian bargain with Satan which (so far) hasn't led to any issues
+
+# FuckLyf intro
+Room2:
+  prompt: "Phew, that was emotionally taxing. What do you want to do now? You can {left} or {right}."
+  left: 
+    room: Room4
+    text: go to the party
+  right:
+    room: Room3
+    text: pick a petty fight with your house mate Ben
+  history: You run a relationship advice blog called <i>FuckLyf</i>
+
+# Argue with Ben
+Room3:
+  prompt: "What do you want to do now? You can {left} or {right}."
+  left: 
+    room: Room4
+    text: go to the party
+  right:
+    room: Room2
+    text: check out your relationship advice blog <b>FuckLyf</b>
+  history: Your housemate is addicted to <i>Ice Road Truckers</i>. You guys don't get on because he's been trying to covertly move his girlfriend into your house
+
+# Sexy Social Justice
+Room4:
+  prompt: "It's 1am - what do you wanna do now? You can {left} or you can {right}."
+  left: 
+    room: Room5
+    text: go home and fall asleep by the light of your laptop
+  right:
+    room: Room6
+    text: look around the party for Chen Li and try to get laid
+  history: You pitched your all-Asian porn studio at a house party
+
+# Going home alone
+Room5:
+  prompt: "Time to get up. What do you want to do today? You can devote yourself to self improvement by {left} or you can risk it all and jump to {right} (who knows what it'll be - a high impact and horrifyingly graphic sex scene complete with crude MS Paint illustrations? A terrifying and wildly inaccurate portrait of postpartum depression?)."
+  left: 
+    room: Room7
+    text: working on FuckLyf
+  right:
+    room: excitingevent1
+    text: a contextless exciting event
+  history: You were too much of a pussy to hit on Chen Li (a long time subject of your affection) and had to gone home alone. ou fell asleep by the light of your laptop and awoke, overwhelmed with self-disgust, elbow deep in an enormous bag of potato chips
+
+Room6:
+  prompt: "What do you want to do now? You can amble on aimlessly {left} or you can risk it all and jump to {right} (who knows what it'll be - 
+a high impact and horrifyingly graphic sex scene complete with crude MS Paint illustrations? A terrifying and wildly inaccurate portrait of postpartum depression?)."
+  left: 
+    room: Room8
+    text: without really making a choice
+  right:
+    room: excitingevent1
+    text: a contextless exciting event
+  history: You slept with Chen Li, a boy you've been obsessed with for months
+
+# Room7:
+#   prompt: "{left} or {right}"
+#   left: 
+#     room: none
+#     text: none
+#   right:
+#     room: none
+#     text: none
+#   history: none
+
+# Room8:
+#   prompt: "{left} or {right}"
+#   left: 
+#     room: none
+#     text: none
+#   right:
+#     room: none
+#     text: none
+#   history: none
+
+# Room9:
+#   prompt: "{left} or {right}"
+#   left: 
+#     room: none
+#     text: none
+#   right:
+#     room: none
+#     text: none
+#   history: none
+
+# Room10:
+#   prompt: "{left} or {right}"
+#   left: 
+#     room: none
+#     text: none
+#   right:
+#     room: none
+#     text: none
+#   history: none
+
+# Room11:
+#   prompt: "{left} or {right}"
+#   left: 
+#     room: none
+#     text: none
+#   right:
+#     room: none
+#     text: none
+#   history: none
+
+# Room12:
+#   prompt: "{left} or {right}"
+#   left: 
+#     room: none
+#     text: none
+#   right:
+#     room: none
+#     text: none
+#   history: none
+
+excitingevent1:
+  # Nothing
+
+excitingevent2:
+  # Nothing
+
+excitingevent3:
+  # Nothing
+
+excitingevent4:
+  # Nothing
+
+excitingevent5:
+  # Nothing
+
+excitingevent6:
+  # Nothing
