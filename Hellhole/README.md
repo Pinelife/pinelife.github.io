@@ -6,7 +6,7 @@ This is the choose your own adventure story "Hellhole".
 
 ```
 .
-├── src
+├── source
 │   ├── _*.html         layout files
 │   └── *.html          source HTML
 │
