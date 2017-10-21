@@ -12,7 +12,7 @@ This is the choose your own adventure story "Hellhole".
 │
 ├── scripts
 │   ├── build.py        build script
-│   └── setup.ps1       setup script
+│   └── reqs.txt        Python requirements
 │
 ├── rooms
 │   └── *.html          built HTML

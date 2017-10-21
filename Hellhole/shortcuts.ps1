@@ -15,7 +15,7 @@ switch ($command)
         }
         Write-Host "Installing Python requirements"
         ./scripts/env/scripts/activate
-        pip install -r ./scripts/requirements.txt
+        pip install -r ./scripts/reqs.txt
         Write-Host "Done!"
     }
     'build' {
