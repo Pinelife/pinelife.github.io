@@ -1,14 +1,51 @@
 param([String]$command)
 
-switch ($command)
-{
+function IsInstalled {
+    param([String]$cmd)
+    $ErrorActionPreference = "SilentlyContinue"
+    $installed =  Get-Command $cmd
+    $ErrorActionPreference = "Stop"
+    return $cmd
+}
+
+switch ($command) {
     'setup' {
         Write-Host "Setting up Hellhole environment...`n"
-        # TODO
-        # install Chocolatey
-        # install Python
-        # install Git
-        # Setup Git remote
+        $ErrorActionPreference = "Stop"
+
+        # You may have to run this manually
+        Write-Host "Applying 'RemoteSigned' execution policy."
+        Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force
+
+        # Install Chocolatey package manager
+        if(!(IsInstalled choco)) 
+        {
+            Write-Host "Installing Chocolatey package manager."
+            # Download and run install script
+            $ChocoURL = 'https://chocolatey.org/install.ps1'
+            Invoke-WebRequest $ChocoURL -UseBasicParsing | Invoke-Expression
+            # Load Chocolatey environment variables
+            RefreshEnv
+        }
+
+        # Install git
+        if (!(IsInstalled git)) {
+            choco install git -y
+            # Setup Git remote?
+        }
+
+        # Install Python 2.7
+        if (!(IsInstalled python)) {
+            choco install python2 -y
+        }
+
+        # Refresh PATH environment variable
+        $env:Path = [Environment]::GetEnvironmentVariable("Path","Machine")
+
+        if (!(IsInstalled virtualenv)) {
+            pip install virtualenv
+        }
+
         if (-Not (Test-Path ./scripts/env/)) {
             Write-Host "Setting up Python virtual environment"
             virtualenv ./scripts/env/            

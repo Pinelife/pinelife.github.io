@@ -31,8 +31,14 @@ You can use the script ./shortcuts.ps1 to do the following:
 * build the HTML
 * push your changes to GitHub
 
-You can run the script in Powershell using
+You can run the script in Powershell using:
 
 ```
 ./shortcuts.ps1
+```
+
+If this doesn't work, you may need to run this first:
+
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force
 ```
