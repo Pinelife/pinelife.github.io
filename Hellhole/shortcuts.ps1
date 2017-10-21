@@ -84,9 +84,11 @@ switch ($command) {
         Write-Host "Formatting source HTML...`n"
         ./scripts/env/scripts/activate
         ForEach ($file in (Get-ChildItem .\source\)) {
+            Write-Host "`t$path"
             $path = Join-Path .\source\ $file
             python ./scripts/env/Scripts/html5-print $path
         }
+        Write-Host "`nDone!`n"
     }
     default {
         Write-Host "`n`tHellhole Shortcuts`n"
