@@ -80,15 +80,18 @@ p ul
 {
     list-style-type: none;
     font-size: 1.2em;
+    list-style-position: inside;
 }
 
 ul ul li {
     font-size: 1.2em;
+    list-style-position: inside;
 }
 
 
 li{
     font-size: 1.2em;
+    list-style-position: inside;
 }
 
 a:hover {
