@@ -82,6 +82,11 @@ p ul
     font-size: 1.2em;
 }
 
+ul ul li {
+    font-size: 1.2em;
+}
+
+
 li{
     font-size: 1.2em;
 }
