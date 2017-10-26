@@ -2,13 +2,13 @@
 
 # Starting room
 index:
-  prompt: "{left} or {right}"
+  prompt: "Do you want to {left} or {right}?"
   left: 
     room: Room1
-    text: Click here to enter the castle
+    text: enter the castle
   right:
     room: Room1
-    text: click here to try your luck with the sharks and crocodiles
+    text: try your luck with the sharks and crocodiles
   history: You got dolled up to go to a house party
 
 # Pre-party Satan bargain
