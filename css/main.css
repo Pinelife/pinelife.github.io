@@ -78,7 +78,7 @@ a {
 
 p ul
 {
-    list-style-type: none;
+    /*list-style-type: none;*/
     font-size: 1.2em;
     list-style-position: outside;
 }
@@ -86,7 +86,7 @@ p ul
 ul ul {
     font-size: 19px;
     list-style-position: outside;
-    margin-left:1em;
+    /*margin-left:1em;*/
 }
 
 ul{
@@ -129,11 +129,11 @@ ul.posts {
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
-
+/*
 ul.posts li {
     list-style: none;
 }
-
+*/
 ol li {
     font-size: 1.2em;
     line-height: 1.3em;
