@@ -26,11 +26,12 @@
 /*Novelty formatting for mini script on schemes page*/
 .script{
         font-family: 'Courier';
-        font-size:1.2em;
+        font-size:1em;
 }
 
  .script2 { 
-    width 40%; 
+    width: 40%; 
+     font-size:1em;
 }
 
 .Satan {
