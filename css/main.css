@@ -23,8 +23,14 @@
     color: #0033cc;
  }
 
+/*Novelty formatting for mini script on schemes page*/
 .script{
-font-family: 'Courier';
+        font-family: 'Courier';
+        font-size:1.2em;
+}
+
+ .script2 { 
+    width 40%; 
 }
 
 .Satan {
