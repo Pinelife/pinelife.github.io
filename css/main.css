@@ -139,7 +139,7 @@ h4 {
 h5 {
     font-size: 1.2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    background: -webkit-linear-gradient(#ffb7e2, #ff8c19);
+    background: -webkit-linear-gradient(#5fb1f4, #bf5ff4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
